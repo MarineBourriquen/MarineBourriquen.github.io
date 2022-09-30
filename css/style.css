@@ -1,0 +1,45 @@
+body {
+    background-image: url('../images/image_fond1.jpg');
+}
+
+.container{
+    background-color: #f0efec;
+    width : 70%;
+    margin: 5rem auto;
+    padding: 5rem;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header .photo_profil{
+    width: 40%;
+}
+
+.photo_profil .profil{
+    border-radius: 120px;
+}
+
+header .presentation{
+    width: 60%;
+}
+
+main {
+    display:flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+main .left{
+    width: 50%;
+    padding: 2rem;
+}
+
+main .right{
+    width: 50%;
+    padding: 2rem;
+}
