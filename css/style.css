@@ -1,32 +1,59 @@
 body {
     background-image: url('../images/image_fond1.jpg');
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
 }
 
 .container{
     background-color: #f0efec;
     width : 70%;
     margin: 5rem auto;
-    padding: 5rem;
-    border-radius: 7px;
+    padding: 3rem;
+    border-radius: 15px;
     box-sizing: border-box;
 }
+
+/*==========================
+
+Style du header
+
+==========================*/
 
 header {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 3rem;
 }
 
 header .photo_profil{
-    width: 40%;
+    width: 30%;
 }
 
 .photo_profil .profil{
     border-radius: 120px;
+    border: 8px #D2651F solid;
 }
 
 header .presentation{
-    width: 60%;
+    text-align: center;
+    width: 70%;
 }
+
+h1{
+    font-size:4rem;
+    font-weight: 600;
+    color:#D2651F;
+}
+
+h2{
+    font-weight: 600;
+}
+
+/*==========================
+
+Style du main
+
+==========================*/
 
 main {
     display:flex;
@@ -35,11 +62,121 @@ main {
 }
 
 main .left{
-    width: 50%;
-    padding: 2rem;
+    width: 40%;
+    padding: 0 2rem;
+    border-right: 1px black solid;
+    margin-right: 0.1rem;
 }
 
 main .right{
-    width: 50%;
-    padding: 2rem;
+    width: 60%;
+    padding: 0 2rem;
+    border-left: 1px black solid;
+    margin-left: 0.1rem;
+}
+
+h3{
+    border-bottom: 2px #D98637 solid;
+    color:#D2651F;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h4{
+    font-weight: 600;
+}
+
+h5{
+    font-size:1.4rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px black solid;
+    margin: 0 5rem 0 5rem;
+    padding: 0.2em;
+}
+
+aside{
+    font-style: italic;
+    color: #27838B;
+}
+
+/*==========================
+
+Style partie competences
+
+==========================*/
+
+.competences{
+    display:flex;
+    justify-content: space-around;
+}
+
+.picto{
+    width: 3rem;
+}
+
+.dvlp{
+    width: 18%;
+    margin:3% 3% 5% 0;
+    text-align: center;
+}
+
+.framework{
+    margin:3% 3% 5% 0;
+    text-align: center;
+}
+
+.outils{
+    margin:3% 3% 5% 0;
+    text-align: center;
+}
+
+.carto{
+    margin:3% 3% 5% 0;
+    text-align: center;
+}
+
+.edition{
+    margin:3% 3% 5% 0;
+    text-align: center;
+}
+
+/*==========================
+
+Style hobbies
+
+==========================*/
+
+.hobbie{
+    display:flex;
+    justify-content: space-between;
+}
+
+.picto_sec{
+    width: 2rem;
+}
+
+/*==========================
+
+Style Contactez-moi
+
+==========================*/
+.contact{
+    border-bottom: 1px black dashed;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.a_propos{
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.contact_info{
+    display:flex;
+    justify-content: space-between;
+}
+
+.contact_info a{
+    text-decoration: none;
+    color: black
 }
