@@ -45,6 +45,7 @@ body {
     .photo_profil .profil{
         border-radius: 120px;
         border: 8px #D2651F solid;
+        box-shadow: 60px -16px rgba(39,131,139,0.5);
     }
 
     header .presentation{
