@@ -32,7 +32,7 @@ header {
 }
 
 header .photo_profil{
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 .photo_profil .profil{
@@ -177,7 +177,7 @@ Style Contactez-moi
 
 
 Affichage sur tablette ou petit écran ordinateur*/
-@media (min-width: 750px || max-width: 1000px){
+@media (min-width: 750px) and (max-width: 1000px){
 
     header .presentation{
         text-align: center;
@@ -239,7 +239,7 @@ Affichage sur ordinateur */
     .photo_profil .profil{
         border-radius: 120px;
         border: 8px #D2651F solid;
-        box-shadow: 50px -15px rgba(39,131,139,0.5);
+        box-shadow: 20px -8px rgba(39,131,139,0.5);
     }
 
     header .presentation{
