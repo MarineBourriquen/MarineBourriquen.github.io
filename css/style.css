@@ -11,6 +11,7 @@ strong{
 }
 
 .container{
+    opacity: 1;
     background-color: #f0efec;
     width : 90%;
     margin: 2rem auto;
@@ -173,7 +174,6 @@ Style Contactez-moi
 
 
 
-
 /*=================================================================================================
 
 
@@ -210,7 +210,6 @@ Affichage sur tablette ou petit écran ordinateur*/
 
 Affichage sur ordinateur */
 @media (min-width: 1000px){
-
 
     .container{
         background-color: #f0efec;
