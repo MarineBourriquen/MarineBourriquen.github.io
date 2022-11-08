@@ -39,6 +39,7 @@ header .photo_profil{
     border-radius: 120px;
     border: 8px #D2651F solid;
     box-shadow: 20px -8px rgba(39,131,139,0.5);
+    width: 80%;
 }
 
 header .presentation{
