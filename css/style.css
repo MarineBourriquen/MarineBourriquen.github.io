@@ -1,9 +1,12 @@
 /*Affichage sur téléphone*/
+@media (max-width: 1000px){
 
 body {
     background-image: url('../images/image_fond1.jpg');
     font-family: 'Barlow', sans-serif;
     font-size: 1rem;
+    padding-top: 3rem;
+}
 }
 
 strong{
@@ -211,10 +214,24 @@ Affichage sur tablette ou petit écran ordinateur*/
 Affichage sur ordinateur */
 @media (min-width: 1000px){
 
+    body {
+        background-color: #355F75;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1rem;
+    }
+
+    .first_container{
+        background-image: url('../images/image_fond1.jpg');
+        width: 1200px;
+        margin: 2rem auto;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+        border-radius: 15px;
+    }
+
     .container{
         background-color: #f0efec;
         width : 1000px;
-        margin: 3rem auto;
+        margin: 2rem auto;
         padding: 3rem 1.5rem 3rem 1.5rem;
         border-radius: 15px;
         box-sizing: border-box;
